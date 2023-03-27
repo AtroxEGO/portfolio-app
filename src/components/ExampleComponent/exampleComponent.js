@@ -4,7 +4,7 @@ import './exampleComponent.css'
 const ExampleComponent = () => {
   return (
     <div className='exampleClass'>
-      I Am an example Component
+      I Am an example Component with text
     </div>
   );
 };
