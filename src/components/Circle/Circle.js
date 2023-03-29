@@ -11,9 +11,15 @@ function Circle() {
           <div className="slice">
           <div className='personName'><span>Kuba</span></div>
           </div>
+          
           <div className="slice">
-          <div className='personName'><span>Paweł</span></div>
+            <a href='/pawel'>
+              <div className='personName'>
+                <span>Paweł</span>
+              </div>
+            </a>
           </div>
+          
           <div className="slice">
           <div className='personName'><span>O&nbsp;Nas</span></div>
           </div>
