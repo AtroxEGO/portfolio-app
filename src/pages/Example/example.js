@@ -1,12 +1,10 @@
 import React from 'react';
-import ExampleComponent from '../../components/ExampleComponent/exampleComponent';
 import Circle from '../../components/Circle/Circle';
-import './example.css'
+import classes from './example.module.css'
 const Example = () => {
 
   return (
-    <div className='root'>
-
+    <div className={classes.root}>
       <Circle />
     </div>
   );
