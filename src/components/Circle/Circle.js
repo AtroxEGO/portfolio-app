@@ -6,16 +6,16 @@ function Circle() {
     <div className='root'>
         <div className="circle">
           <div className="slice">
-            <span>Michał</span>
+          <div className='personName'><span>Michał</span></div>
           </div>
           <div className="slice">
-          <span>Kuba</span>
+          <div className='personName'><span>Kuba</span></div>
           </div>
           <div className="slice">
-          <span>Paweł</span>
+          <div className='personName'><span>Paweł</span></div>
           </div>
           <div className="slice">
-          <span>O&nbsp;Nas</span>
+          <div className='personName'><span>O&nbsp;Nas</span></div>
           </div>
         </div>
     </div>

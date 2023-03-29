@@ -25,7 +25,15 @@ html{
     min-width: 300px;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
-    user-select: none
+    user-select: none;
+}
+
+.personName {
+    width: fit-content;
+    animation: 100s infinite rotatingReverse;
+    position: relative;
+    top: 7.5rem;
+    left: 6rem;
 }
 
 .slice:hover{
@@ -36,10 +44,10 @@ html{
 }
 
 .slice span{
-    position: relative;
     font-size: 1.4rem;
     font-weight: 900;
     letter-spacing: 2px;
+    
 }
 
 .slice:first-child{
@@ -112,12 +120,21 @@ html{
 
 @keyframes rotating{
     0%{
-        transform: rotate(0);
+        transform: rotate(0deg);
     }
-
-    
 
     100%{
         transform: rotate(360deg);
     }
 }
+
+@keyframes rotatingReverse{
+    0%{
+        transform: rotate(360deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+  
