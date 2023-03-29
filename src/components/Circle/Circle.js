@@ -1,22 +1,44 @@
 import React from 'react';
-import './Circle.css'; // Import the CSS file with styles
+import './Circle.css';
 
 function Circle() {
   return (
     <div className='root'>
         <div className="circle">
+
+
           <div className="slice">
-          <div className='personName'><span>Michał</span></div>
+            <a href='/michal'>
+              <div className='personName'>
+                <span>Michal</span>
+              </div>
+            </a>
           </div>
+
           <div className="slice">
-          <div className='personName'><span>Kuba</span></div>
+            <a href='/jakub'>
+              <div className='personName'>
+                <span>Jakub</span>
+              </div>
+            </a>
           </div>
+
           <div className="slice">
-          <div className='personName'><span>Paweł</span></div>
+            <a href='/pawel'>
+              <div className='personName'>
+                <span>Paweł</span>
+              </div>
+            </a>
           </div>
+
           <div className="slice">
-          <div className='personName'><span>O&nbsp;Nas</span></div>
+            <a href='/onas'>
+              <div className='personName'>
+                <span>O Nas</span>
+              </div>
+            </a>
           </div>
+
         </div>
     </div>
   );

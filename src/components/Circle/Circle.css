@@ -2,6 +2,10 @@ html{
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 .root{
     max-width: 100vw;
     min-height: 100vh;
@@ -32,8 +36,11 @@ html{
     width: fit-content;
     animation: 100s infinite rotatingReverse;
     position: relative;
-    top: 7.5rem;
-    left: 6rem;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slice:hover{
