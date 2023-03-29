@@ -6,8 +6,7 @@ const Example = () => {
 
   return (
     <div className='root'>
-      <h1>Example routing Page</h1>
-      <ExampleComponent/>
+
       <Circle />
     </div>
   );
