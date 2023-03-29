@@ -18,18 +18,6 @@ function Circle() {
           <span>O&nbsp;Nas</span>
           </div>
         </div>
-        
-        {/* <div className="pie">
-        <button className='firstPie'>
-            <span className="text">Paweł</span>    
-        </button>
-        <button className='secondPie'>
-            <span className="text">Michał</span>    
-        </button>
-        <button className='thirdPie'>
-            <span className="text">Jakub</span>    
-        </button>
-        </div> */}
     </div>
   );
 }

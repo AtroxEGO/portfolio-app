@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <h1>Main Index</h1>
-      <a href='/example'>Click Me!</a>
+      <a href='/select'>Click Me!</a>
     </div>
   );
 };
