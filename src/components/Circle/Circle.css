@@ -10,6 +10,7 @@ html{
 }
 
 .circle{
+    
     min-height: 600px;
     min-width: 600px;
     position: relative;
@@ -49,6 +50,10 @@ html{
     
 }
 
+.slice:first-child:hover{
+    translate: -20px -20px;
+}
+
 .slice:first-child span{
     top: 150px;
     left: 130px;
@@ -60,6 +65,10 @@ html{
     right: 0;
     background-color: aqua;
     border-top-right-radius: 100%;
+}
+
+.slice:nth-child(2):hover{
+    translate: 20px -20px;
 }
 
 .slice:nth-child(2) span{
@@ -75,6 +84,10 @@ html{
     border-bottom-right-radius: 100%;
 }
 
+.slice:nth-child(3):hover{
+    translate: 20px 20px;
+}
+
 .slice:nth-child(3) span{
     top: 100px;
     left: 80px;
@@ -86,6 +99,10 @@ html{
     left: 0;
     background-color: red;
     border-bottom-left-radius: 100%;
+}
+
+.slice:nth-child(4):hover{
+    translate: -20px 20px;
 }
 
 .slice:nth-child(4) span{
