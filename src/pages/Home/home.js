@@ -1,10 +1,11 @@
 import React from 'react';
-  
+import Circle from '../../components/Circle/Circle';
+import classes from './home.module.css'
+
 const Home = () => {
   return (
-    <div>
-      <h1>Main Index</h1>
-      <a href='/example'>Click Me!</a>
+    <div className={classes.root}>
+      <Circle />
     </div>
   );
 };
