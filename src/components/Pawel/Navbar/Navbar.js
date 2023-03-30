@@ -5,7 +5,7 @@ import items from './navbarItems.js'
 import { useLocation } from 'react-router'
 
 
-const Navbar = ({onSectionChange}) => {
+const Navbar = ({currentSection,onSectionChange}) => {
 
     const location = useLocation()
 
@@ -26,7 +26,7 @@ const Navbar = ({onSectionChange}) => {
 
     const singleItem = ({icon, desc, title}, i) => (
         <div className={classes.navbarItem} key={i} onClick={() => handleClick(i, title)}>
-            <div className={classes.navbarButton}>
+            <div className={i == currentSection ? [classes.activeButton, classes.navbarButton].join(" ") : classes.navbarButton}>
                 {getIcon(icon)}
             </div>
             <div className={classes.navbarItemDesc} >{desc}</div>

@@ -20,7 +20,7 @@ const Pawel = () => {
 
   return (
     <div className={classes.root}>
-      <Navbar onSectionChange={[setCurrentSection, setConstoleText]}/>
+      <Navbar currentSection={currentSection} onSectionChange={[setCurrentSection, setConstoleText]}/>
       <ConsoleHeader text={consoleText}/>
       <div className={classes.sectionRoot}>
         {getSection(currentSection)}
