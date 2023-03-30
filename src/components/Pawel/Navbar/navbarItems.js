@@ -3,22 +3,22 @@ export default {
         {
             icon: "UilHome",
             desc: "HOME",
-            link: "/pawel",
+            title: "Hello World",
         },
         {
             icon: "UilFolder",
-            desc: "PLAN",
-            link: "/pawel/projects",
+            desc: "PROJECTS",
+            title: "My Projects",
         },
         {
             icon: "UilInfo",
             desc: "INFO",
-            link: "/pawel/info",
+            title: "Information",
         },
         {
             icon: "UilEnvelope",
-            desc: "MAIL",
-            link: "/pawel/contact",
+            desc: "CONTACT",
+            title: "Contact Me",
         },
     ]
 }

@@ -37,23 +37,22 @@ a {
 }
 
 .navbarItemDesc {
-    height: 0px;
+    max-height: 0px;
     border-radius: 0.5rem;
     width: 60px;
     display: flex;
+    user-select: none;
     margin-top: 0.3rem;
     text-orientation: upright;
     writing-mode: vertical-lr;
-    transition: height 0.3s ease;
+    transition: max-height 0.4s ease-out;
 }
 
 .navbarButton:hover + .navbarItemDesc{
     box-shadow: inset 0px 0px 20px 5px rgb(110, 110, 110);
-    user-select: none;
-    height: 135px;
-    display: flex;
+    max-height: 280px;
     justify-content: flex-start;
-    padding-bottom: 1.3rem;
+    padding-bottom: 1rem;
     letter-spacing: -0.7rem;
     align-items: center;
     font-size: 2rem;

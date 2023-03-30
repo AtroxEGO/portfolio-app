@@ -6,7 +6,8 @@
     flex-direction: column;
 }
 
-.mainInfo {
-    margin-left: 10rem;
+.sectionRoot {
+    margin: 2rem 5rem 5rem 20rem;
     font-size: 1.6rem;
+    height: 100%;
 }
