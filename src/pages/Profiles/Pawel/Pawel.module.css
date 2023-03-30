@@ -6,6 +6,11 @@
     flex-direction: column;
 }
 
+.header {
+    margin-left: 10rem;
+    /* height: ; */
+}
+
 .sectionRoot {
     margin: 2rem 5rem 5rem 20rem;
     font-size: 1.6rem;
