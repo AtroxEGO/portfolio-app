@@ -2,11 +2,12 @@
     background-color: #111;
     color: white;
     height: 100vh;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.header {
-    padding-top: 2.2rem;
-    font-weight: 700;
-    font-size: 2.4rem;
+.sectionRoot {
+    margin: 2rem 5rem 5rem 20rem;
+    font-size: 1.6rem;
+    height: 100%;
 }

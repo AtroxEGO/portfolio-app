@@ -6,7 +6,6 @@ function Circle() {
     <div className='root'>
         <div className="circle">
 
-
           <div className="slice">
             <a href='/michal'>
               <div className='personName'>
