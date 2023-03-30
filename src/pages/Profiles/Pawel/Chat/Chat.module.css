@@ -1,0 +1,18 @@
+.root {
+    background-color: #111;
+    height: 100vh;
+}
+
+.chatContainer {
+    display: flex;
+    height: 80%;
+}
+
+.chatBox {
+
+    height: 80%;
+    width: 70%;
+    margin-left: 7rem;
+    border-radius: 1rem;
+    background-color: #3f3f3f;
+}
