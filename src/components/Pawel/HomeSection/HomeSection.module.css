@@ -1,0 +1,38 @@
+.root {
+    user-select: none;
+    font-size: 3.6rem;
+}
+
+.greenText {
+    color: #4AF626;
+}
+.orangeUnderline {
+    text-decoration:underline;
+    text-decoration-color: #FD7F20;
+    color: #FD7F20;
+}
+
+.artText {
+    color: rgb(255, 251, 0);
+}
+
+.blueText {
+    color: #0F5298;
+    font-weight: bold;
+}
+
+.symbolSpan {
+    color: #696969 ;
+    font-size: 4.6rem;
+    position: relative;
+    top: 0.2rem;
+}
+.slashSpan {
+    color: #696969;
+    font-size: 3.5rem;
+    margin-left: 0.3rem;
+}
+
+.indentedParagraph{
+    margin-left: 4rem;
+}
