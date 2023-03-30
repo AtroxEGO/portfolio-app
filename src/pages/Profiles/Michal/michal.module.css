@@ -1,12 +1,108 @@
-.root {
-    background-color: #111;
-    color: white;
-    height: 100vh;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.header {
-    padding-top: 2.2rem;
-    font-weight: 700;
-    font-size: 2.4rem;
+
+.root {
+    background-color: var(--michal-main);
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    color: var(--michal-second-dark);
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+p{
+    color: var(--michal-second-dark);
+    font-size: 2rem;
+}
+
+.main{
+    display: flex;
+}
+
+.leftSide{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 4rem;
+}
+
+.rightSide{
+    width: 100%;
+    position: relative;
+    
+}
+
+
+.switch_section{
+    height: 400px;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+
+.lever{
+    position: absolute;
+    transform-origin: center right ;
+    transition: all 1s;
+    
+}
+
+.level1{
+    transform: rotate(75deg);
+}
+.level2{
+    transform: rotate(25deg);
+}
+.level3{
+    transform: rotate(-20deg);
+}
+.level3{
+    transform: rotate(-65deg);
+}
+.switch_section input::-webkit-slider-thumb{
+    opacity: 0;
+}
+
+.switch_section input{
+    position: absolute;
+    transform: rotate(90deg);
+    -webkit-appearance: none;
+    width: 650px;
+    min-height: 350px;
+    right: -150px;
+    top: 60px;
+    background-color: transparent;
+    z-index: 2;
+    cursor: grab;
+}
+
+.hireMeButton{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    max-width: 200px;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--michal-black);
+    color: var(--michal-second-dark);
+}
+
+.picker{
+    z-index: 1;
 }

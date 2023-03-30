@@ -1,5 +1,13 @@
 html{
   font-size: 18px;
+  
+  --michal-main:#45C4B0;
+  /* #38C3FF */
+  --michal-second: #EDB44F;
+  --michal-second-dark:#BF5E26;
+  --michal-black:#120802;
+  
+
 }
 
 body {
