@@ -4,7 +4,8 @@ import { UilHome, UilFolder, UilEnvelope, UilInfo  } from '@iconscout/react-unic
 import items from './navbarItems.js'
 import { useLocation } from 'react-router'
 
-const Navbar = () => {
+
+const Navbar = ({onSectionChange}) => {
 
     const location = useLocation()
 
@@ -17,12 +18,18 @@ const Navbar = () => {
         }
     }
 
-    const singleItem = ({icon, desc, link}, i) => (
-        <div className={classes.navbarItem} key={i}>
-            <div className={location.pathname == link ? [classes.navbarButton, classes.activeButton].join(" ") : classes.navbarButton}>
-                <a href={link}>{getIcon(icon)}</a>
+    const handleClick = (id, title) => {
+        console.log(id)
+        onSectionChange[0](id)
+        onSectionChange[1](title)
+    }
+
+    const singleItem = ({icon, desc, title}, i) => (
+        <div className={classes.navbarItem} key={i} onClick={() => handleClick(i, title)}>
+            <div className={classes.navbarButton}>
+                {getIcon(icon)}
             </div>
-            <div className={classes.navbarItemDesc}>{desc}</div>
+            <div className={classes.navbarItemDesc} >{desc}</div>
         </div>
     );
 
