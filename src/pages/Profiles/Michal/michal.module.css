@@ -1,0 +1,12 @@
+.root {
+    background-color: #111;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+.header {
+    padding-top: 2.2rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
