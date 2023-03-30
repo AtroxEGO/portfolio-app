@@ -1,14 +1,14 @@
 .header {
     font-size:4em;
     text-align:center;
-    height:200px;
+    height:150px;
     width:450px;
     display:flex;
     justify-content: center;
     align-items: center;
     color:white;
     user-select: none;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
   }
   .consoleUnderscore {
     display:inline-block;
