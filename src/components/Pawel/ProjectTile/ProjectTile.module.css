@@ -1,0 +1,61 @@
+.root {
+    width: fit-content;
+    user-select: none;
+    /* min-height: 0px; */
+    color: #111;
+    display: flex;
+    background-color: white;
+    /* box-shadow: inset 0px 0px 20px 5px rgb(110, 110, 110); */
+    border-radius: 1rem;
+}
+
+.root:hover {
+    box-shadow: 0px 0px 13px 0px rgb(255, 255, 255);
+}
+
+a {
+    display: flex;
+}
+.logo {
+    height: 150px;
+    margin-left: 1rem;
+}
+.title {
+    margin-left: 1rem;
+    padding-right: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.desc {
+    min-height: 75px;
+    max-width: 170px;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 1rem;
+    font-size: 0.7rem;
+}
+.bottomLeft {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.dot {
+    position: relative;
+    top: 1px;
+    margin-right: 2px;
+    border-radius: 1rem;
+    width: 10px;
+    height: 10px;
+}
+.bottomRight svg{
+    margin-right: 1rem;
+    scale: 1.6;
+}
+.bottomRight svg:hover{
+    color: #6e6e6e;
+}
