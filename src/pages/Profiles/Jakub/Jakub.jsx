@@ -4,7 +4,7 @@ import Projects from '../../../components/Jakub/Projects/Projects'
 import classes from './Jakub.module.css'
 const Jakub = () => {
 
-    alert('note that this site is WIP (work in progress)')
+    console.log('note that this site is WIP (work in progress)')
 
   return (
     <div className={classes.scroll}>

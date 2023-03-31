@@ -16,7 +16,6 @@
 
 .main{
 
-
     overflow: hidden !important;
     display: flex;
     align-items: center;
@@ -27,7 +26,7 @@
     font-weight: bold;
 
     height: 100vh;
-    width: 99.5vw;
+    width: 100vw;
 }
 
 .mainTitle{
@@ -40,28 +39,35 @@
 
 .mainSpan{
     color: var(--color4);
-    text-shadow: var(--greenshadow) !important;
+    text-shadow: 0px 0px 5px var(--color3);
 }
 
 .mainNav{
     text-transform: uppercase;
     text-shadow: var(--shadow);
+
     font-size: 1.5rem;
     
-    padding-top: 3rem;
-    width: 30vw;
+    padding-top: 1.5rem;
+    width: 40vw;
     
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
-    color: var(--white);
+    color: white;
 }
 .underline{
+    width: 10rem;
+    text-align: center;
     cursor: pointer;
     display: inline-block;
     position: relative;
-    padding-bottom: 0.25rem;
+    padding: 0.5rem;
+    transition: 0.25s
+}
+.mainNav a{
+    color: var(--white);
 }
 .underline::before{
     box-shadow: var(--shadow);
@@ -78,4 +84,16 @@
     width: 100%;
     left: 0;
     right: auto;
+}
+.underline:hover{
+    color: var(--color4);
+    text-shadow: 0px 0px 5px var(--color3);
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+.downArrow{
+    position: absolute;
+    bottom: 1rem;
+    color: white;
+    font-size: 2rem;
 }

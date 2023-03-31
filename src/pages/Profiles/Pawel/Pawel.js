@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import ContactSection from '../../../components/Pawel/ContactSection/ContactSection';
 import ConsoleHeader from '../../../components/Pawel/Header/ConsoleHeader';
 import HomeSection from '../../../components/Pawel/HomeSection/HomeSection';
