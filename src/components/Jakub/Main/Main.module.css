@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import '../Colors/Colors.module.css';
+
+.background{
+    filter: brightness(50%);
+    position: absolute;
+    z-index: -999;
+    background-image: url(/public/jakub/MainBackground.jpg);
+    background-position-y: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+
+}
+
+.main{
+
+
+    overflow: hidden !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    user-select: none;
+    font-weight: bold;
+
+    height: 100vh;
+    width: 99.5vw;
+}
+
+.mainTitle{
+    color: var(--white);
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+
+    text-shadow: var(--shadow);
+}
+
+.mainSpan{
+    color: var(--color4);
+    text-shadow: var(--greenshadow) !important;
+}
+
+.mainNav{
+    text-transform: uppercase;
+    text-shadow: var(--shadow);
+    font-size: 1.5rem;
+    
+    padding-top: 3rem;
+    width: 30vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    color: var(--white);
+}
+.underline{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0.25rem;
+}
+.underline::before{
+    box-shadow: var(--shadow);
+    content: " ";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    transition: width 0.25s ease-out;
+}
+.underline:hover:before{
+    width: 100%;
+    left: 0;
+    right: auto;
+}
